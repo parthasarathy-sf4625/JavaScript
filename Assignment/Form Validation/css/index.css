@@ -1,0 +1,15 @@
+.form{
+    display: block;
+    width:40%;
+    margin: 1% 25%;
+    border: 2px solid black;
+    padding: 2% 0% 2% 12%;
+}
+
+.output{
+    display: none;
+    
+}
+.outputtable{
+        border: 1px solid black;
+}

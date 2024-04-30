@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="scripts/index.js"></script>
+    </head>
+
+    <title>Basic Calculator</title>
+
+    <body>
+        <div class="page">
+                <div class="calculatorbg">
+                    <div>
+                        <input class="display" type="text" id="inputbox">
+                    </div>
+                    <div class="calculatorelements">
+                        <button type="reset" onclick="Reset()" class="buttons" id="reset">C</button>
+
+
+                        <button onclick="setOperation('*')" class="buttons" id="multiply">*</button>
+                        <button onclick="setOperation('/')" class="buttons" id="divide">/</button>                        
+                        <button onclick="setOperation('%')" class="buttons" id="delete">%</button>
+
+                        <button onclick="setValue(7)" class="buttons" id="seven">7</button>
+                        <button onclick="setValue(8)" class="buttons" id="eight">8</button>
+                        <button onclick="setValue(9)" class="buttons" id="nine">9</button>
+
+                        <button onclick="setOperation('+')" class="buttons" id="plus">+</button>
+
+                        <button onclick="setValue(6)" class="buttons" id="six">6</button>
+                        <button onclick="setValue(5)" class="buttons" id="five">5</button>
+                        <button onclick="setValue(4)" class="buttons" id="four">4</button>
+
+                        <button onclick="setOperation('-')" class="buttons" id="minus">-</button>
+
+                        <button onclick="setValue(3)" class="buttons" id="three">3</button>
+                        <button onclick="setValue(2)" class="buttons" id="two">2</button>
+                        <button onclick="setValue(1)" class="buttons" id="one">1</button>
+                        <button onclick="setValue(0)" class="buttons" id="zero">0 </button>
+
+                        <button onclick="Calculate()" type="submit" class="equalbutton" id="zero">= </button>
+                        
+                        
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
