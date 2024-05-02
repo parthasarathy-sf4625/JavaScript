@@ -1,0 +1,94 @@
+<html>
+<title>
+
+</title>
+
+<head>
+    <script src="../script/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="bodydiv">
+        <div class="header">
+            <div class="headercontent" style="width: 2%;padding-right: 2%;">
+                <img src="../images/logo.png" alt="Syncfusion Logo" width="100%">
+            </div>
+
+            <div class="headercontent">
+                Library Portal
+            </div>
+
+            <div class="headercontent">
+                Books
+            </div>
+            
+        </div>
+        <hr>
+
+
+        <div class="form" id="form">
+
+            <h1>Add New Book</h1>
+            <form>
+                <label for="category" style="margin-right: 7%;">Category</label>
+                <select name="category" id="category">
+                    <option id="it">IT</option>
+                    <option id="nonit">Non - IT</option>
+                </select>
+                <br><br>
+                <label for="book" style="margin-right:8.6%;">Book </label>
+                <input type="text" name="book" id="book">
+                <br><br>
+                <label for="authoremail" style="margin-right: 5%;">Author Email</label>
+                <input type="email" name="authoremail" id="authoremail">
+                <br><br>
+                <label for="authorname" style="margin-right: 5%;">Author Name</label>
+                <input type="text" name="authorname" id="authorname">
+                <br><br>
+                <label for="published" style="margin-right:6.6%;">Published</label>
+                <input type="text" name="published" id="published">
+                <br><br>
+                <label for="price" style="margin-right: 8.6%;">Price</label>
+                <input type="text" name="price" id="price">
+                <br><br>
+                <button onclick="return validate()" class="button">Save </button>
+                <button class="button">Cancel </button>
+                <button class="button">Show </button>
+            </form>
+        </div>
+
+        <div class="bookdetails" id="bookdetails">
+
+            <label id="displayheader"></label><br><br>
+            <label style="margin-right: 7%;">Category</label>
+            <label id="categoryinfo"></label>    
+            <br><br>
+            <label style="margin-right:8.6%;">Book </label>
+            <label id="bookinfo"></label>
+            <br><br>
+            <label style="margin-right: 5%;">Author Email</label>
+            <label id="authoremailinfo"></label>
+            <br><br>
+            <label style="margin-right: 5%;">Author Name</label>
+            <label id="authornameinfo"></label>
+            <br><br>
+            <label style="margin-right:6.6%;">Published</label>
+            <label id="publishedinfo"></label>
+            <br><br>
+            <label style="margin-right: 8.6%;">Price</label>
+            <label id="priceinfo"></label>
+            <br><br>
+
+
+            </table>
+        </div>
+
+        <!-- <div class="fotter">
+            <hr>
+            <div>Copyright @2024 - present Syncfusion</div>
+        </div> -->
+    </div>
+</body>
+
+</html>
